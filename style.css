@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.heading{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* align-items: center; */
+    margin-bottom: 10px;
+}
+h1{
+    border-bottom: 5px solid #888;
+
+}
+.UserSpace{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#UserInput{
+    width: 300px;
+    height: 30px;
+    /* text-align: center; */
+    background-color: lightgrey;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+#btn{
+    width: 90px;
+    height: 33px;
+    background-image: linear-gradient(to right, #6495ed, #8fcaff);
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: bold;
+
+
+}
+#Randombtn{
+    width: 90px;
+    height: 33px;
+    background-image: linear-gradient(to right, #6495ed, #8fcaff);
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: bold;
+
+
+}
+.bd-1{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;    
+    border-right: 0;
+}
+.bd-2{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: 0;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid yellow; */
+    margin-top: 80px;
+}
+.devSpace{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    /* flex-wrap: wrap; */
+    margin-top:30px;
+    justify-content: center;
+    /* align-items: center; */
+    border: 2px solid black;
+}
+
+.dflex{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.bd{
+   border: 2px solid #2f2f2f;
+   border-radius: 8px;
+}
+.mj{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.pd{
+    padding: 5px;
+}
+.typeof1{
+  /* border: 2px solid green; */
+  font-size: 1.2rem
+}
+.typeof2{
+    /* border: 2px solid yellow; */
+    margin-left:37px;
+    font-size: 1.2rem
+
+}
+.participant1{
+    /* border: 2px solid yellow; */
+    font-size: 1.2rem
+
+}
+.participant2{
+  /* border: 2px solid green; */
+  margin-left:4px;
+  font-size: 1.2rem
+
+}
+.prices1{
+    /* border:2px solid blue; */
+    font-size: 1.2rem
+}
+.prices2{
+    /* border: 2px solid ; */
+    margin-left:102px;
+    font-size: 1.2rem
+
+}
